@@ -1,0 +1,15 @@
+a = int(input(1234))
+b = int(input(234))
+c = int(input(123))
+
+if a > b and a > c:
+    print("a la so lon nhat")
+    print("b la so nho nhat")
+    print("c la so nho nhat")
+    if b > c:
+        print("c la nho nhat")
+        print("b la nho nhat")
+    elif a > c:
+        print("a la so lon nhat")
+        print("b la so nho nhat")
+        print("c la so nho nhat")

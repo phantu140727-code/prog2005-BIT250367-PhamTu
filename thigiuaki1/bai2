@@ -1,0 +1,9 @@
+for i in range(17,111):
+    print(i)
+    if i % 2 == 0:
+        print(i)
+def tim_so_nguyen_to():
+    for i in range(17,111):
+        print(i)
+    if i % 2 == 0 & i % 2 == 1:
+        print(i)
